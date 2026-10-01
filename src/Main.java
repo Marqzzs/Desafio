@@ -23,15 +23,16 @@ void main() {
     while (option != 4 ){
 
         System.out.println("""
+                ****
                 Operações
-                
+                ***
                 1- Consultar saldos
                 2- Receber valor
                 3- Transferir valor
                 4- Sair
-                
+                ***
                 Digite a opção desejada:
-                
+                ***
         """);
 
         option = scanner.nextInt();
@@ -56,9 +57,6 @@ void main() {
                 System.out.println("Digite o valor a ser debitado:");
                 squirtle = scanner.nextDouble();
 
-                charmander = charmander - squirtle;
-
-                System.out.println("O novo saldo é de: R$ " + charmander);
             }
 
             charmander = charmander - squirtle;
